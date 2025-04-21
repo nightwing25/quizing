@@ -7,17 +7,6 @@ import os
 #from virtualization import *  
 
 
-"""
-OBJECTIVE:
-    
-    x) list dir and put the lessons from dir in a list 
-
-    x) then get user input to grab index of module anad import 
-    by indexing.
-    x) put the list in order so when the user pick a number its indexed properly
-
-    x) after display what the user got wrong make a list for the actual letter and problem they got wrong
-"""
 
 #print all quiz titles in directory in alpha order
 def lessons():
