@@ -6,6 +6,7 @@ import os
 #from clouds import *
 #from virtualization import *  
 
+
 """
 OBJECTIVE:
     
@@ -63,10 +64,16 @@ while True:
         from lessons.raids_cpu import *
         os.system("clear")
     elif x == 6:
-        from lessons.trouble import *
+        from lessons.servings import *
         os.system("clear")
     elif x == 7:
+        from lessons.trouble import *
+        os.system("clear")
+    elif x == 8:
         from lessons.virtualization import *
+        os.system("clear")
+    elif x == 9:
+        from lessons.wireless import *
         os.system("clear")
     elif x == "":
         break
