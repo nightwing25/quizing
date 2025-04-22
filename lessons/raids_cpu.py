@@ -13,7 +13,8 @@ questions = (
         "minimum hdd requirements for raid 5?",#6
         "minmum hdd requirements for raid 0?",#7
         "what company's form factor is PGA for?",#8
-        "what company's form factor is LGA for?"#9
+        "what company's form factor is LGA for?",#9
+        "what is the maximum hard drives requirements for RAID 10(1+0)?"#10
         )
 #("a.","b.","c.","d.")
 options = (("a.led","b.laser","c.oled","d.flourescent"),#0
@@ -25,7 +26,8 @@ options = (("a.led","b.laser","c.oled","d.flourescent"),#0
            ("a.2 hard drives","b.3 hard drives","c.0 hard drives","d.4 hard drives"),#6
            ("a.2 hard drives","b.1 hard drives","c.3 hard drives","d.1 m.2 ssd"),#7
            ("a.intel","b.AMD","c.nvidia","d.apple"),#8
-           ("a.microsoft","b.nvidia","c.AMD","d.intel")#9
+           ("a.microsoft","b.nvidia","c.AMD","d.intel"),#9
+           ("a.5 for the stripping aand mirroring","b.3 or more","c.4 or more ","d. 2 or more")#10
            )
 
 ##for correct answers
@@ -38,6 +40,7 @@ answers = ("a",#0
            "b",#6
            "a",#7
            "b",#8
-           "d"#9
+           "d",#9
+           "c"#10
            )
 #for correct answers

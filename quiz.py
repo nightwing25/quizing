@@ -14,6 +14,8 @@ def lessons():
     all_files = os.listdir('lessons')
     all_files.sort()
     for i in all_files:
+        if "__init__.py" in i:
+            continue
         if ".py" in i:
             if "quiz.py" in i:
                 continue
