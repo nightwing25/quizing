@@ -11,7 +11,7 @@ questions = ("your own virtualize local data center is an example of?",#0
             "SalesForce.com is an example of what software service?",#9
             "web service providers are an example of what software service?",#10
             "this type of cloud computing charcateristic is when info is duplicatded across cloud locations.",#11
-            "this cloud computing characteristic is good when a server is down or providers lose power and some how your still able to use the service.",#12
+            "this cloud computing characteristic is good when a server is down or providers lose power and some how you're still able to use the service.",#12
             "remote virtualization of a pc where you only need your keyboard,mouse and screen for basic app use is what cloud service?",#13
             "being billed only for what you use in a service is an example of what bill type?",#14
             "a fixed cost for a service that you use is an example of what bill type??"#15

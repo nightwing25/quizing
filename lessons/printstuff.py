@@ -15,7 +15,8 @@ questions = ("is it true that you can mix print drivers?",#0
              "which of these would you find in the laser maintanence kit?",#14
              "whats the first thing you should do before replacing laser printer cartridge?",#15
              "what cleaning solution is best to clean laser printer rollers?",#16
-             "whats the step for writing image with a laser?"#17
+             "whats the step for writing image with a laser?",#17
+             "what does pcl stand for?"#18
              )
 
 
@@ -39,7 +40,8 @@ options = (
         ("a.printer paper","b.replacement feed rollers","c.both a and b","d.ink"),#14
         ("a.disconnect it from the network","b.find the lever to take out cartridge","c.power off the printer","d.pull the plug"),#15
         ("a.luke warm water","b.hot water","c.peroxide","d.IPA(isopropyl alcohol)"),#16
-        ("a.processing","b.charging","c.developing","d.exposing")#17
+        ("a.processing","b.charging","c.developing","d.exposing"),#17
+        ("a.printer connection language","b.printer common language","c.postscript language","d.postgres common language")#18
         )
 
 
@@ -62,4 +64,5 @@ answers = ("b",#0
            "c",#15
            "d",#16
            "d",#17
+           "b"#18
            )
