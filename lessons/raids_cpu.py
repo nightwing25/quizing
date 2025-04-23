@@ -1,6 +1,4 @@
 
-#when i add a new question to questions and tuple of 4 options in options
-#then and a letter from a to d for the index you want correct
 
 
 questions = (
