@@ -1,3 +1,4 @@
+#questions about fiber connectors 
 questions = (
         "DVI was design to replace what cable?",#0
         "what signals does DVI carry?",#1
@@ -18,12 +19,12 @@ questions = (
         "this is similar to a docking station does not commonly have an expansion card, usually connects with USB...",#16
         "white-green,green,white-orange,blue,white-blue,orange,white-brown,brown is from what T568 termination standard?",#17
         "white-orange,orange,white-green,blue,white-blue,green,white-brown,brown is from what T658 termination standard?",#18
-        "what of these cables are most likely used in digital cable,TVSatellite,TVBroadband and internetHDTV?",#19
+        "which of these cables are most likely used in digital cable,TVSatellite,TVBroadband and internetHDTV?",#19
         "what is cat 5 max supported distance?",#20
         "what is cat5e max supported distance?",#21
         "what ethernet standard is cat5 ",#22
         "whats the max supported distance for cat6A?",#23
-        "what is ethernet satndard & max supported distance for cat6?"#24
+        "what is ethernet standard &  max supported distance for cat6?"#24
         )
 options = (
            ("a.VGA","b.HDMI","c.DisplayPort","d.thunderbolt"),#0
