@@ -1,7 +1,4 @@
 
-
-
-
 questions = (
         "whats the first step of troubleshooting?",#0
         "what do you most likely do before you test the theory?",#1
@@ -24,13 +21,13 @@ options = (
         ("a.create a backup","b.turn off pc and pull the plug","c.remove the hard drive","d.None of the above"),#2
         ("a.identify the problem","b.document findings","c.verify full system functionality","d.implement a solution"),#3
         ("a.Bios","b.POST","c.hardrive","d.cpu"),#4
-        ("a.True","b.False"),#5b
-        ("a.RAID 0","b.RAID 5","c.RAID 10(1+0)","d.RAID 1"),#6a
-        ("a.RAID 5","b.RAID 0","c.RAID 1","d.RAID 10(1+0)"),#7d
-        ("a.S.M.A.R.T","b.IOPS","c.top","d.htop"),#8a
-        ("a.RAID 0","b.RAID 10(1+0)","c.RAID 1","d.RAID 5"),#9c
-        ("a.RAID 0","b.RAID 1","c.RAID 5","d.RAID 10(1+0)"),#10c
-        ("a.task manager","b.IOPS","c.S.M.A.R.T","d.top"),#11b
+        ("a.True","b.False"),#5
+        ("a.RAID 0","b.RAID 5","c.RAID 10(1+0)","d.RAID 1"),#6
+        ("a.RAID 5","b.RAID 0","c.RAID 1","d.RAID 10(1+0)"),#7
+        ("a.S.M.A.R.T","b.IOPS","c.top","d.htop"),#8
+        ("a.RAID 0","b.RAID 10(1+0)","c.RAID 1","d.RAID 5"),#9
+        ("a.RAID 0","b.RAID 1","c.RAID 5","d.RAID 10(1+0)"),#10
+        ("a.task manager","b.IOPS","c.S.M.A.R.T","d.top"),#1
         )
 
 
