@@ -1,15 +1,7 @@
 import os
 import curses
-#from raids_cpu import *
-#from mon_screens import *
-#from cables_part1 import *
-#from printstuff.py import *
-#from clouds import *
-#from virtualization import *  
-
 
 #print all quiz titles in directory in alpha order
-#def lessons():
 full_menu = []
 #count = 0
 all_files = os.listdir('lessons')
@@ -23,13 +15,18 @@ for i in all_files:
         #print(f"{count}.){i}")
         #count += 1
         full_menu.append(i)
-
     else:
         pass
-#print("----"*8)
-#print(full_menu)
+
+#SYSTEM COMPATABILTIY
+def clear_sys():
+    if os.name == 'posix':
+        os.system('clear')
+    else:
+        os.system('cls')
 
 
+#MENU SETUP
 def print_menu(stdscr,selected_row_idx):
     stdscr.clear()#clear the screen each call
     h,w = stdscr.getmaxyx()#get height and width of screen
@@ -48,10 +45,11 @@ def print_menu(stdscr,selected_row_idx):
 
 x = []
 def main(stdscr):
+    stdscr.border()
     curses.curs_set(0)#deactivates the blinking cursor
     curses.init_pair(1,curses.COLOR_BLACK, curses.COLOR_WHITE)#create a color pair to use later
     current_row_idx = 0 #create index for the print menu funct
-
+    
     print_menu(stdscr, current_row_idx)
     while 1:#navigation
         key = stdscr.getch()
@@ -70,61 +68,52 @@ def main(stdscr):
              #   break
         print_menu(stdscr, current_row_idx)
         stdscr.refresh()
-curses.wrapper(main)#FIX THE PART WHERE I PRESS THE LAST THING AND IT EXITS 
-#print(clicked_option)#using rectangle i can do a terminal anime layout to watch anime
+curses.wrapper(main)
 
+#START QUIZ SECTION
 while True:
-    #pos_ans = ["a","b","c","d"]
     score  = 0
     guesses = []
     ques_num = 0
     wrong = [] 
     count = 2
-    #lesson()
-    #curses.wrapper(main)
-    #x = int(input("choose a number to start lesson:"))
-    #GET THE INPUT FROM THE CURSES FUNCTION MAYBE USING  i
 
     if x[0] == "cables_part1.py":
         print("now starting raids lesson")
         from lessons.cables_part1 import *
-        os.system("clear")
+        clear_sys()
     elif x[0] == "clouds.py":
-        from lessons.clouds import *
-        os.system("clear")
-    elif x[0] == 2:
         from lessons.mon_screens import *
-        os.system("clear")
+        clear_sys()
     elif x[0] == "ports.py":
         from lessons.ports import *
-        os.system("clear")
+        clear_sys()
     elif x[0] == "printstuff.py":
         from lessons.printstuff import *
-        os.system("clear")
+        clear_sys()
     elif x[0] == "raids_cpu.py":
         from lessons.raids_cpu import *
-        os.system("clear")
+        clear_sys()
     elif x[0] == "servings.py":
         from lessons.servings import *
-        os.system("clear")
+        clear_sys()
     elif x[0] == "trouble.py":
         from lessons.trouble import *
-        os.system("clear")
+        clear_sys()
     elif x[0] == "virtualization.py":
         from lessons.virtualization import *
-        os.system("clear")
+        clear_sys()
     elif x[0] == "wireless.py":
         from lessons.wireless import *
-        os.system("clear")
+        clear_sys()
     elif x[0] == "":
         break
     else:
-        print("not a real entry")#HAVE TO GET THE LIBARY PICKED FOR THE NEXT PART OF THIS CODE 
+        pass
 
-    
     for question in questions:#display one question and 4 answers choices
         #print("---"*10)
-        print(f"{count}.){question}")
+        print(f"{count -1}.){question}")
         print("")
         for option in options[ques_num]:
             print(option)
@@ -141,8 +130,7 @@ while True:
             wrong.append(question)
 
         ques_num += 1
-        os.system("clear")
-
+        clear_sys()
 
     print("----"*6)
     print("RESULTS")
@@ -175,9 +163,10 @@ while True:
         del(wrong)
         guesses = []
         wrong = []
-        os.system("clear")
+        clear_sys()
+
     else:
-        os.system("clear")
+        clear_sys()
         print("good bye..")
         #break
         x.pop()
