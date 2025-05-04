@@ -18,6 +18,7 @@ questions = (
         "what could be the main reason for why a printer prints gibberish?",#15
         "whats the best troubleshooting solution for when inkjet printers print a line on the paper?",#16
         "whats the best troubleshooting solution for when laser printers print a line on the paper?"#17
+        )
 
 options = (
         ("a.implement solution","b.establish a plan","c.identify the problem","d.establish a theory"),#0
