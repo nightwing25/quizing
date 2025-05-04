@@ -4,8 +4,8 @@ questions = (
         "what do you most likely do before you test the theory?",#1
         "what should most likely be the first step you do when you encounter a loud clicking noise from the hard drive?",#2
         "whats the last step of trouble shooting once the problem is fixed?",#3
-        "whats in charge of testing major components before booting the operating system?"#4
-        "when a raid stops working should pull out the faulty raid immediately?,"#5
+        "whats in charge of testing major components before booting the operating system?",#4
+        "when a raid stops working should pull out the faulty raid immediately?,",#5
         "a single drive failure breaks the array with data loss which raid does this describes the best?",#6
         "can lose all but one from each set of mirrors which raid does this describes the best?",#7
         "this is built-in to most drive arrays usually used to check the status(health info) of the disk what is this called?",#8
