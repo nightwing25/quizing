@@ -17,7 +17,8 @@ questions = (
         "what is the best solution to fix dead pixels on the screen?",#14
         "what could be the main reason for why a printer prints gibberish?",#15
         "whats the best troubleshooting solution for when inkjet printers print a line on the paper?",#16
-        "whats the best troubleshooting solution for when laser printers print a line on the paper?"#17
+        "whats the best troubleshooting solution for when laser printers print a line on the paper?",#17
+        "user complains about a lot of popups on their device,high cpu usage and overheating...what could be the reason?"#18
         )
 
 options = (
@@ -29,7 +30,7 @@ options = (
         ("a.True","b.False"),#5
         ("a.RAID 0","b.RAID 5","c.RAID 10(1+0)","d.RAID 1"),#6
         ("a.RAID 5","b.RAID 0","c.RAID 1","d.RAID 10(1+0)"),#7
-        ("a.S.M.A.R.T","b.IOPS","c.top","d.htop"),#8
+        ("a.S.M.A.R.T","b.IOPS(input/output operations per second)","c.top","d.htop"),#8
         ("a.RAID 0","b.RAID 10(1+0)","c.RAID 1","d.RAID 5"),#9
         ("a.RAID 0","b.RAID 1","c.RAID 5","d.RAID 10(1+0)"),#10
         ("a.task manager","b.IOPS","c.S.M.A.R.T","d.top"),#11
@@ -38,7 +39,8 @@ options = (
         ("a.image sticking","b.pixel shift","c.replace the screen","d.clean with damp cloth"),#14
         ("a.new update","b.its using PCL","c.its using postscript","d.bad printer driver/model"),#15
         ("a.clean print heads","b.clean toner","c.replace paper","d.update print drivers"),#16
-        ("a.replace toner cartdridge","b.check for scratches on the photo sensitive drum","c.replace printer","d.update print drivers")#17
+        ("a.replace toner cartdridge","b.check for scratches on the photo sensitive drum","c.replace printer","d.update print drivers"),#17
+        ("a.wifi enabled","b.bluetooth enabled","c.malware","d.screen brightness")
         )
 
 
@@ -60,6 +62,7 @@ answers = (
         "c",#14
         "d",#15
         "a",#16
-        "b"#17
+        "b",#17
+        "c"#18
            )
 
