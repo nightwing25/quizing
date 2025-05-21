@@ -85,6 +85,9 @@ while True:
     elif x[0] == "clouds.py":
         from lessons.clouds import *
         clear_sys()
+    elif x[0] == "mobile.py":
+        from lessons.mobile import *
+        clear_sys()
     elif x[0] == "mon_screens.py":
         from lessons.mon_screens import *
         clear_sys()
