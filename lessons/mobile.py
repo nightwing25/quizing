@@ -23,8 +23,8 @@ questions = (
         "what did the PRL(perferd roaming list) do?",#19
         "what were 5G improvements?",#20
         "extending your cellular data like a wifi to other devices is an example of what?",#21
-        "what is an MDM used for?",#22
-        "WWAN"
+        "what is an MDM used for?"#22
+        #"WWAN"
         )
 
 
@@ -39,7 +39,7 @@ options = (
         ("a.MDM","b.UTM","c.proxy server","d.firewall"),#8a
         ("a.UTM","b.MDM","c.COPE","d.BOYD"),#9b
         ("a.UTM","b.COPE","c.BYOD","d.MDM"),#10c
-        ("a.MDM","b.UTM","c.BOYD","d.COPE")#11d
+        ("a.MDM","b.UTM","c.BOYD","d.COPE"),#11d
         ("a.","b.","c.","d."),#12c
         ("a.","b.","c.","d."),#13c
         ("a.","b.","c.","d."),#14c
